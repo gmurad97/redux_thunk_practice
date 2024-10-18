@@ -1,0 +1,39 @@
+.todo__item {
+    background-color: #dfe6e9;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.todo__item-heading {
+    min-height: 100px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.todo__item-heading-mark {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.todo__item-body {
+    width: 100%;
+    height: auto;
+}
+
+.todo__item-body>label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.todo__item-body>label:hover {
+    text-decoration: underline;
+}
+
+.todo__item-body>label>span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 12px;
+}
